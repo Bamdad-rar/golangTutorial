@@ -22,12 +22,13 @@ so &x for example stores the pointer to where the desired variable is.
 
 func main() {
 	x := 10
-	
+
 	var aPointer *int = &x
-	
-	fmt.Println("value of x:",x)
-	fmt.Println("value of aPointer:",aPointer)
-	fmt.Println("x address:",&x)
-	fmt.Println("value of x via pointer dereferencing:",*aPointer)
-	
+
+	fmt.Println("value of x:", x)
+	fmt.Println("value of aPointer:", aPointer)
+	fmt.Println("x address:", &x)
+	fmt.Println("value of x via pointer dereferencing:", *aPointer)
+	fmt.Println("aPointer address:", &aPointer)
+
 }

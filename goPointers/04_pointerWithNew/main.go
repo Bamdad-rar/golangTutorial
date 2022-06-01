@@ -14,6 +14,8 @@ func testFunc(myPointer *int){
 func main() {
 	// creating a pointer
 	aPointer := new(int)
+
+	fmt.Println(*aPointer)
 	testFunc(aPointer)
 	// print the value by dereferncing and gaining access to it.
 	fmt.Println(*aPointer)
